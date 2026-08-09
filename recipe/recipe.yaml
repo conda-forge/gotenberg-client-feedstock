@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: gotenberg-client
-  version: "0.14.0"
+  version: "1.0.0"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/gotenberg_client-${{ version }}.tar.gz
-  sha256: a853700c6b01c3372871264c4eb9ae3375addafbcbbfd3341e411f4217a8088c
+  sha256: 871b339ed98911279f94f3aaa6403ca7c59aaa695d8663249be6314ccd46719c
 
 build:
   number: 0
