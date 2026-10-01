@@ -33,7 +33,10 @@ tests:
       imports:
         - gotenberg_client
       pip_check: true
-      python_version: ${{ python_min }}.*
+      python_version:
+        - ${{ python_min }}.*
+        - '*'
+
 
 about:
   summary: A Python client for interfacing with the Gotenberg API
